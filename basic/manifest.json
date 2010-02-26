@@ -1,0 +1,12 @@
+{
+  "name": "Sample1",
+  "version": "1.0",
+  "description": "Test extension.",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "popup" : "popup.html"    
+  },
+  "permissions": [
+    "http://api.flickr.com/"
+  ]
+}
